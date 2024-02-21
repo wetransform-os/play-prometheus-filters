@@ -29,7 +29,9 @@ credentials += Credentials(Path.userHome / ".wetfArtifactory")
 //credentials += Credentials(Path.userHome / ".sbt" / ".credentials.sonatype")
 
 scalaVersion := "2.13.12"
-crossScalaVersions := Seq(scalaVersion.value, "2.12.15")
+// it does not compile with older scala versions
+//crossScalaVersions := Seq(scalaVersion.value, "2.12.15")
+crossScalaVersions := Nil
 
 val playVersion = "2.9.1"
 val prometheusClientVersion = "0.9.0"
