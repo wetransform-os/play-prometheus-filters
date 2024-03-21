@@ -4,7 +4,7 @@ name := "play-prometheus-filters"
 // TODO: should I change the organisation to `to.wetransform`?
 organization := "io.github.jyllands-posten"
 
-version := "0.7.0"
+version := "0.8.0-SNAPSHOT"
 
 lazy val root = (project in file("."))
 
